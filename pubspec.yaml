@@ -1,0 +1,26 @@
+name: printc
+description: Kiosk Print Connect App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  # Pinned to 5.5.0: This version has a stable Windows implementation
+  file_picker: ^10.3.8
+  flutter_spinkit: ^5.2.0
+  google_fonts: ^6.1.0
+  animate_do: ^3.3.4
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
